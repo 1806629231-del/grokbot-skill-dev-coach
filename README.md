@@ -8,7 +8,7 @@ Grok Bot「Skill 开发教练」（skill-dev-coach）的辅助脚本和参考资
 ## 安装
 ```bash
 D=/workspace/skill-packs/skill-dev-coach; mkdir -p $D
-git clone --depth 1 https://github.com/<OWNER>/grokbot-skill-dev-coach /tmp/sdc && cp -r /tmp/sdc/scripts /tmp/sdc/references $D/
+git clone --depth 1 https://github.com/1806629231-del/grokbot-skill-dev-coach /tmp/sdc && cp -r /tmp/sdc/scripts /tmp/sdc/references $D/
 python3 $D/scripts/test_skill_tools.py
 ```
 只需 Python 3，无第三方依赖、无账号。
